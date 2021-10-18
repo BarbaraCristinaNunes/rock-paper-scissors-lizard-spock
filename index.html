@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Play rock-paper-scissors-lizard-spock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl text-center">
+                <h1>Play rock-paper-scissors-lizard-spock</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center" id="user">
+                <!-- <h1>User choice: </h1> <p id='user-choice'> </p> -->
+            </div>
+            <div class="col-md-6 text-center" id="computer">
+                <!-- <h1>Computer choice: </h1> <p id='computer-choice'> </p> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="result">
+                <!-- <h1>Result: </h1> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                    <button class='btn btn-primary' id='Rock'>Rock</button>
+                    <button class='btn btn-primary' id='Paper' >Paper</button>
+                    <button class='btn btn-primary' id='Scissor'>Scissor</button>
+                    <button class='btn btn-primary' id='Lizard'>Lizard</button>
+                    <button class='btn btn-primary' id='Spock'>Spock</button>
+                    <button class='btn btn-primary' id = 'reset'>Reset</button>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group mb-3">
+                        <input id = "input" placeholder="Write your choice here or click on the buttons" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class='btn btn-primary' id='enter' class="btn btn-outline-secondary" type="button" id="button-addon2">Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
